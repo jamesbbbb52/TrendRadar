@@ -1,0 +1,82 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 175</p><p>生成时间: 2025-08-25 21:40:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump</td>
+                <td class="count">16</td>
+                <td class="percentage">9.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825212218350800" target="_blank" class="news-link">美国总统特朗普：韩国发生了什么？看起来像是一场清洗或革命。我们不能在那种情况下开展业务。我今天将在白宫会见（韩国）新总统。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825212059048800" target="_blank" class="news-link">特朗普：英特尔的交易中我一分没掏 会一直达成类似的交易</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时40分</font></div><br>[靠谱新闻] <a href="https://www.dw.com/zh/巴基斯坦提名特朗普角逐诺贝尔和平奖/a-72995268" target="_blank" class="news-link">巴基斯坦提名特朗普角逐诺贝尔和平奖</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时40分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825211650931800" target="_blank" class="news-link">美国总统特朗普：很高兴看到他们的股价上涨。</a> [6] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3754043" target="_blank" class="news-link">降息狂热情绪冷却，美股期货跌幅扩大、欧股多数下跌，美元和美债收益率齐涨</a> [7] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825211644553800" target="_blank" class="news-link">美国总统特朗普：还将帮助与美国达成赚钱交易的公司。</a> [7] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3754013" target="_blank" class="news-link">特朗普掌控美联储的“三步法”：换掉鲍威尔、掌控理事会、开掉地方联储主席</a> [8] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825211612017800" target="_blank" class="news-link">美国总统特朗普：英特尔(INTC.O)的股份我一分钱没掏。</a> [8] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825211551294800" target="_blank" class="news-link">美国总统特朗普：（谈英特尔交易）我会整天为我们的国家做这样的交易。</a> [9] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3754043" target="_blank" class="news-link">降息狂热情绪冷却，美股期货跌幅扩大、欧股多数下跌，美元和美债收益率齐涨</a> [10] <font color='grey'>- 21时40分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41957570" target="_blank" class="news-link">“杀不死”的美股牛市</a> [17] <font color='grey'>- 21时40分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825205454951800" target="_blank" class="news-link">美芝加哥市长强硬回应特朗普“派兵”威胁：绝不屈服</a> [17] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=45012903" target="_blank" class="news-link">Trump halts construction on nearly complete wind farm off Rhode Island</a> [19] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825205001130800" target="_blank" class="news-link">拼多多(PDD.O)美股盘前转跌3%。</a> [19] <font color='grey'>- 21时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250825204453380800" target="_blank" class="news-link">金十数据整理：每日美股市场要闻速递（2025-08-25）</a> [21] <font color='grey'>- 21时40分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3754030" target="_blank" class="news-link">让央行听话！--这不只是特朗普的愿望</a> [29] <font color='grey'>- 21时40分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 13 条)</h3>
+        <h4>HackerNews (1 条)</h4><ul><li><a href="https://news.ycombinator.com/item?id=45012903" target="_blank" class="news-link">Trump halts construction on nearly complete wind farm off Rhode Island</a> [19]</li></ul><h4>华尔街见闻-最热 (2 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3754013" target="_blank" class="news-link">特朗普掌控美联储的“三步法”：换掉鲍威尔、掌控理事会、开掉地方联储主席</a> [8]</li><li><a href="https://wallstreetcn.com/articles/3754043" target="_blank" class="news-link">降息狂热情绪冷却，美股期货跌幅扩大、欧股多数下跌，美元和美债收益率齐涨</a> [10]</li></ul><h4>华尔街见闻-最新 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3754043" target="_blank" class="news-link">降息狂热情绪冷却，美股期货跌幅扩大、欧股多数下跌，美元和美债收益率齐涨</a> [7]</li></ul><h4>金十数据 (9 条)</h4><ul><li><a href="https://flash.jin10.com/detail/20250825212218350800" target="_blank" class="news-link">美国总统特朗普：韩国发生了什么？看起来像是一场清洗或革命。我们不能在那种情况下开展业务。我今天将在白宫会见（韩国）新总统。</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://flash.jin10.com/detail/20250825212059048800" target="_blank" class="news-link">特朗普：英特尔的交易中我一分没掏 会一直达成类似的交易</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://flash.jin10.com/detail/20250825211650931800" target="_blank" class="news-link">美国总统特朗普：很高兴看到他们的股价上涨。</a> [6]</li><li><a href="https://flash.jin10.com/detail/20250825211644553800" target="_blank" class="news-link">美国总统特朗普：还将帮助与美国达成赚钱交易的公司。</a> [7]</li><li><a href="https://flash.jin10.com/detail/20250825211612017800" target="_blank" class="news-link">美国总统特朗普：英特尔(INTC.O)的股份我一分钱没掏。</a> [8]</li><li><a href="https://flash.jin10.com/detail/20250825211551294800" target="_blank" class="news-link">美国总统特朗普：（谈英特尔交易）我会整天为我们的国家做这样的交易。</a> [9]</li><li><a href="https://flash.jin10.com/detail/20250825205454951800" target="_blank" class="news-link">美芝加哥市长强硬回应特朗普“派兵”威胁：绝不屈服</a> [17]</li><li><a href="https://flash.jin10.com/detail/20250825205001130800" target="_blank" class="news-link">拼多多(PDD.O)美股盘前转跌3%。</a> [19]</li><li><a href="https://flash.jin10.com/detail/20250825204453380800" target="_blank" class="news-link">金十数据整理：每日美股市场要闻速递（2025-08-25）</a> [21]</li></ul></div>
+    </body>
+    </html>
+    
